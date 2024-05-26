@@ -2,11 +2,10 @@
   "name": "@toy-element/docs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.md",
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
+    "dev": "vitepress dev ./",
+    "build": "vitepress build ./"
   },
   "keywords": [],
   "author": "",
