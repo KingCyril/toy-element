@@ -48,7 +48,7 @@ jobs:
         run: npm run build
 
       - name: Build docs
-        run: npm run docs:build
+        run: npm run build
 
       - name: Upload docs
         uses: actions/upload-artifact@v3
