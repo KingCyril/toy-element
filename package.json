@@ -7,8 +7,9 @@
     "dev": "pnpm --filter @toy-element/play dev",
     "docs:dev":"pnpm --filter @toy-element/docs dev",
     "docs:build":"pnpm --filter @toy-element/docs build",
-    "test": "echo 'todo'",
-    "build": "pnpm --filter @toy-element build"
+    "test": "pnpm --filter @toy-element/components test",
+    "build": "pnpm --filter @toy-element build",
+    "story":"pnpm --filter @toy-element/play storybook"
   },
   "keywords": [],
   "author": "",

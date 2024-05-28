@@ -1,5 +1,5 @@
 <template>
-  <ErButton>sss</ErButton>
+  <ErButton type="danger">测试</ErButton>
 </template>
 
 <script setup lang="ts">
